@@ -1,0 +1,29 @@
+/* Animated dropdown */
+.dropdown-menu {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: translateY(10px);
+}
+
+.dropdown.show .dropdown-menu {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* card hover */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 25px rgba(212, 175, 55, 0.4);
+}
+
+/* for blog card  */
+   .card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 25px rgba(212, 175, 55, 0.3);
+    }
