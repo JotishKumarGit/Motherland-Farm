@@ -16,63 +16,9 @@
 </head>
 
 <body>
-  <!-- Top Bar -->
-  <div class="container-fluid bg-dark py-2">
-    <div class="container">
-      <div class="row justify-content-center text-center align-items-center">
-        <div class="col-12 d-flex justify-content-center align-items-center flex-wrap gap-3">
-          <!-- Email and Phone -->
-          <span class="text-light me-3">
-            <i class="bi bi-envelope-fill"></i> ganeshdhamdhere1983@gmail.com
-          </span>
-          <span class="text-light me-3">
-            <i class="bi bi-telephone-outbound-fill"></i> +91 9172887314 || 8010579974
-          </span>
 
-          <!-- Social Media Icons Centered -->
-          <span>
-            <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="text-light me-3"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="text-light me-3"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="text-light"><i class="bi bi-linkedin"></i></a>
-          </span>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
-    <div class="container">
-      <a class="navbar-brand fw-bold text-dark" href="#">Motherland Farm</a>
-      <!-- <a class="navbar-brand fw-bold text-dark" href="#"><img src="assets/img/logo.png" height="50px" width="60px"
-          alt=""></a> -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarRight"
-        aria-controls="navbarRight" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse justify-content-end" id="navbarRight">
-        <ul class="navbar-nav mb-2 mb-lg-0">
-          <li class="nav-item"><a class="nav-link active text-dark" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link text-dark" href="#">About</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Products
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Jaggery Powder</a></li>
-              <li><a class="dropdown-item" href="#">Jaggery Cake</a></li>
-            </ul>
-          </li>
-          <li class="nav-item"><a class="nav-link text-dark" href="#">Contact</a></li>
-          <li class="nav-item"><a class="nav-link text-dark" href="#">Services</a></li>
-          <li class="nav-item"><a class="nav-link text-dark" href="#">Blog</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <!-- header -->
+  <?php include('header.php') ?>
 
   <!-- carousel  -->
   <div id="carouselExample" class="carousel slide">
@@ -177,9 +123,7 @@
                 Traditional jaggery blocks made from pure sugarcane juice — rich in minerals and bursting with authentic
                 flavor.
               </p>
-              <a href="#" class="btn"
-                style="background-color: #1a1a1a; color: #ffffff; font-weight: bold; border-radius: 50px; padding: 8px 25px;">View
-                Details</a>
+              <a href="Jaggery_Cake.php" class="btn" style="background-color:  #1a1a1a; color: #ffffff; font-weight: bold; border-radius: 50px; padding: 8px 25px;">View Details</a>
             </div>
           </div>
         </div>
@@ -194,7 +138,7 @@
                 Fine, easy-to-use jaggery powder ideal for your daily beverages and desserts — naturally sweet and full
                 of goodness.
               </p>
-              <a href="#" class="btn"
+              <a href="Jaggery_Powder.php" class="btn"
                 style="background-color: #1a1a1a; color: #ffffff; font-weight: bold; border-radius: 50px; padding: 8px 25px;">View
                 Details</a>
             </div>
@@ -207,9 +151,9 @@
             <div class="card-body text-center" style="color: #3b2f2f;">
               <h5 class="card-title fw-bold" style="color: #3b2f2f;">Chickpeas</h5>
               <p class="card-text text-muted">
-               Protein-rich legumes perfect for healthy meals and snacks.
+                Protein-rich legumes perfect for healthy meals and snacks.
               </p>
-              <a href="#" class="btn"
+              <a href="Chickpeas.php" class="btn"
                 style="background-color: #1a1a1a; color: #ffffff; font-weight: bold; border-radius: 50px; padding: 8px 25px;">View
                 Details</a>
             </div>
@@ -222,9 +166,9 @@
             <div class="card-body text-center" style="color: #3b2f2f;">
               <h5 class="card-title fw-bold" style="color: #3b2f2f;">Hand Made Soap</h5>
               <p class="card-text text-muted">
-               A natural soap crafted with care for gentle and nourishing skincare.
+                A natural soap crafted with care for gentle and nourishing skincare.
               </p>
-              <a href="#" class="btn"
+              <a href="Hand_Made_Soap.php" class="btn"
                 style="background-color: #1a1a1a; color: #ffffff; font-weight: bold; border-radius: 50px; padding: 8px 25px;">View
                 Details</a>
             </div>
@@ -237,9 +181,9 @@
             <div class="card-body text-center" style="color: #3b2f2f;">
               <h5 class="card-title fw-bold" style="color: #3b2f2f;">Jaggery </h5>
               <p class="card-text text-muted">
-              A natural sweetener made from sugarcane, rich in minerals and flavor.
+                A natural sweetener made from sugarcane, rich in minerals and flavor.
               </p>
-              <a href="#" class="btn"
+              <a href="Jaggery.php" class="btn"
                 style="background-color: #1a1a1a; color: #ffffff; font-weight: bold; border-radius: 50px; padding: 8px 25px;">View
                 Details</a>
             </div>
@@ -252,9 +196,9 @@
             <div class="card-body text-center" style="color: #3b2f2f;">
               <h5 class="card-title fw-bold" style="color: #3b2f2f;">Premix</h5>
               <p class="card-text text-muted">
-              A ready-to-use blend for quick and convenient beverage preparation. 
+                A ready-to-use blend for quick and convenient beverage preparation.
               </p>
-              <a href="#" class="btn"
+              <a href="Premix.php" class="btn"
                 style="background-color: #1a1a1a; color: #ffffff; font-weight: bold; border-radius: 50px; padding: 8px 25px;">View
                 Details</a>
             </div>
@@ -267,9 +211,9 @@
             <div class="card-body text-center" style="color: #3b2f2f;">
               <h5 class="card-title fw-bold" style="color: #3b2f2f;">Tea</h5>
               <p class="card-text text-muted">
-              A refreshing beverage made from carefully selected tea leaves.  
+                A refreshing beverage made from carefully selected tea leaves.
               </p>
-              <a href="#" class="btn"
+              <a href="tea.php" class="btn"
                 style="background-color: #1a1a1a; color: #ffffff; font-weight: bold; border-radius: 50px; padding: 8px 25px;">View
                 Details</a>
             </div>
@@ -282,9 +226,9 @@
             <div class="card-body text-center" style="color: #3b2f2f;">
               <h5 class="card-title fw-bold" style="color: #3b2f2f;">Turmeric</h5>
               <p class="card-text text-muted">
-              A golden spice known for its flavor, color, and healing properties.
+                A golden spice known for its flavor, color, and healing properties.
               </p>
-              <a href="#" class="btn"
+              <a href="Turmeric.php" class="btn"
                 style="background-color: #1a1a1a; color: #ffffff; font-weight: bold; border-radius: 50px; padding: 8px 25px;">View
                 Details</a>
             </div>
@@ -685,97 +629,5 @@
     </div>
   </div>
 
-  <!-- Footer Section -->
-  <footer class="text-light py-5" style="background-color: #000;">
-    <div class="container">
-      <div class="row g-4">
-
-        <!-- Company Info -->
-        <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="100">
-          <h5 class="fw-bold mb-3" style="color: #fff;">Motherland Farm</h5>
-          <p class="text-white-50">
-            At Motherland Farm, we bring you the pure goodness of nature through our traditionally made
-            <strong>Jaggery Cake</strong> and <strong>Jaggery Powder</strong>. 100% natural, chemical-free, and rich in
-            authentic sweetness.
-          </p>
-        </div>
-
-        <!-- Quick Links -->
-        <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="200">
-          <h5 class="fw-bold mb-3" style="color: #fff;">Quick Links</h5>
-          <ul class="list-unstyled">
-            <li><a href="#" class="text-white-50 text-decoration-none">Home</a></li>
-            <li><a href="#" class="text-white-50 text-decoration-none">About Us</a></li>
-            <li><a href="#" class="text-white-50 text-decoration-none">Our Products</a></li>
-            <li><a href="#" class="text-white-50 text-decoration-none">Blog</a></li>
-            <li><a href="#" class="text-white-50 text-decoration-none">Contact</a></li>
-          </ul>
-        </div>
-
-        <!-- Contact Info -->
-        <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="300">
-          <h5 class="fw-bold mb-3" style="color: #fff;">Get In Touch</h5>
-          <p class="text-white-50 mb-1"><i class="bi bi-geo-alt-fill" style="color:#fff;"></i> A/P Yarat Tal - Duand
-            District Madhubani, Maharashtra, India 412214</p>
-          <p class="text-white-50 mb-1"><i class="bi bi-telephone-fill" style="color:#fff;"></i> +91 9172887314 ||
-            8010579974</p>
-          <p class="text-white-50 mb-3"><i class="bi bi-envelope-fill" style="color:#fff;"></i>
-            ganeshdhamdhere1983@gmail.com</p>
-
-          <!-- Social Icons -->
-          <div>
-            <a href="#" class="text-white me-3"><i class="bi bi-facebook fs-5"></i></a>
-            <a href="#" class="text-white me-3"><i class="bi bi-instagram fs-5"></i></a>
-            <a href="#" class="text-white me-3"><i class="bi bi-twitter fs-5"></i></a>
-            <a href="#" class="text-white"><i class="bi bi-whatsapp fs-5"></i></a>
-          </div>
-        </div>
-      </div>
-
-      <hr class="border-secondary my-4">
-
-      <!-- Bottom Footer -->
-      <div class="text-center" data-aos="fade-up" data-aos-delay="400">
-        <p class="mb-0 text-white-50">
-          &copy; 2025 <strong style="color: #fff;">Motherland Farm</strong>. All Rights Reserved.
-          | Managed By <span><a href="https://trade4export.com/"></a> Trade4Export</span>
-        </p>
-      </div>
-    </div>
-  </footer>
-
-  <!-- JS to handle WhatsApp submission -->
-  <script>
-    document.getElementById("contactForm").addEventListener("submit", function (e) {
-      e.preventDefault(); // prevent form from submitting normally
-
-      var name = encodeURIComponent(document.getElementById("name").value);
-      var email = encodeURIComponent(document.getElementById("email").value);
-      var number = encodeURIComponent(document.getElementById("number").value);
-      var subject = encodeURIComponent(document.getElementById("subject").value);
-      var message = encodeURIComponent(document.getElementById("message").value);
-
-      var whatsappNumber = "1234567890"; // Replace with your WhatsApp number
-      var text = `Name: ${name}%0AEmail: ${email}%0APhone: ${number}%0ASubject: ${subject}%0AMessage: ${message}`;
-      var url = `https://wa.me/${whatsappNumber}?text=${text}`;
-
-      window.open(url, "_blank");
-    });
-  </script>
-
-  <!-- AOS JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-  <script>
-    AOS.init({
-      duration: 1000, // animation duration in ms
-      once: true      // whether animation should happen only once - while scrolling down
-    });
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-    crossorigin="anonymous"></script>
-  <script src="assets/script.js"></script>
-</body>
-
-</html>
+  <!-- footer -->
+   <?php include('footer.php') ?>
